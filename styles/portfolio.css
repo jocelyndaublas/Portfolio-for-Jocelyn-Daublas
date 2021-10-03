@@ -1,6 +1,41 @@
 /*font: merienda,cursive
 */
-h1{
-    color: purple;
-    font-family: merienda,cursive;
+:root {
+  --branding-color: #f9f7fe;
+  --secondary-color: #6c63ff;
+  --heading-font: "Playfair Display", serif;
+  --body-font: monospace;
+}
+h1 {
+  font-family: var(--heading-font);
+  font-weight: bold;
+}
+.hero {
+  background-color: var(--branding-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero h3 {
+  font-size: 36px;
+  margin: 0;
+  font-weight: bold;
+  font-family: var(--body-font);
+}
+.hero h1 {
+  font-size: 96px;
+}
+.hero h2 {
+  font-size: 24px;
+  font-family: var(--body-font);
+  font-weight: normal;
+}
+.btn-branding {
+  background-color: var(--secondary-color);
+  font-size: 18px;
+  font-family: var(--body-font);
+  line-height: 27px;
+  color: white;
+  border-radius: 4px;
+  padding: 15px 30px;
 }
