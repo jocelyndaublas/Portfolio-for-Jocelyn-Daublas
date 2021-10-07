@@ -10,7 +10,7 @@ h1 {
   font-family: var(--heading-font);
   font-weight: bold;
 }
-h2 {
+h3 {
   font-family: var(--heading-font);
   font-size: 64px;
   line-height: 1;
@@ -26,7 +26,7 @@ p {
   padding: 160px 20px;
 }
 
-.hero h3 {
+.hero h2 {
   font-size: 36px;
   margin: 0;
   font-weight: bold;
@@ -35,7 +35,7 @@ p {
 .hero h1 {
   font-size: 96px;
 }
-.hero h2 {
+.hero h3 {
   font-size: 24px;
   font-family: var(--body-font);
   font-weight: normal;
@@ -62,6 +62,26 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+.about-section {
+  padding: 160px 20px;
+}
+.about-section-content {
+  margin: 30px;
+}
+.about-section h1 {
+  font-size: 64px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: monospace;
+}
+.about-section p {
+  font-size: 16px;
+  opacity: 70%;
+}
+.jocelyn-image {
+  padding: 20px 60px;
+}
 @media (max-width: 960px) {
   .project-description {
     padding: 0;
@@ -71,7 +91,11 @@ p {
     font-size: 50px;
   }
 
-  h2 {
+  h3 {
     font-size: 44px;
+  }
+  .about-section {
+    padding: 0;
+    text-align: center;
   }
 }
